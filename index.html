@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo! </title>
+    <title>Razonamiento Cuantitativo 1</title>
+    <meta name="description" content="Heramienta educativa para clasificar números en conjuntos (naturales, enteros, racionales) y resolver operaciones aritmeticas con explicaciones paso a paso."
+    <link rel="stylesheet" href="css/styles.css"
 </head>
 <body>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque veritatis inventore, maxime harum consequuntur repellendus, adipisci quam exercitationem numquam voluptas dolores pariatur aliquam quo obcaecati corporis expedita quaerat eveniet. Animi.</p>
+    <div class="principal">
+        <nav class="opciones-nav" role="tablist">
+            <button class="tab-btn" role="tab">
+                <span class="nav-tab-text">Conjuntos de Números</span>
+            </button>
+            <button class="tab-btn" role="tab">
+                <span class="nav-tab-text">Operaciones Aritmeticas</span>
+            </button>
+            <button class="tab-btn" role="tab">
+                <span class="nav-tab-text">:D </span>
+            </button>
+        </nav>
+
+        <section id="panel-clasificar" class="tab-panel active">
+            <div class="card">
+                <h2>Clasificador de Conjunto Números</h2>
+                <p>Ingresa un número y selecciona un conjunto para verificar si pertenece a él.</p>
+            </div>
+            <input type="text" id="numero-input">
+
+            <select id="select-conjuntos">
+                <option value="naturales">Naturales</option>
+                <option value="enteros">Enteros</option>
+                <option value="racionales">Racionales</option>
+            </select>
+        
+
+        </section> 
+
+        <h1>HOLA MUNDO</h1>
+        <p><b>Lorem</b> ipsum dolor, sit amet consectetur adipisicing elit. Itaque veritatis inventore, maxime harum consequuntur repellendus, adipisci quam exercitationem numquam voluptas dolores pariatur aliquam quo obcaecati corporis expedita quaerat eveniet. Animi.</p>
+        <Script>
+            alert("Hola")
+        </Script>
+    </div>
 </body>
+    
 </html>
