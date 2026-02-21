@@ -22,26 +22,33 @@
         </nav>
 
         <section id="panel-clasificar" class="tab-panel active">
+            
             <div class="card">
-                <h2>Clasificador de Conjunto Números</h2>
-                <p>Ingresa un número y selecciona un conjunto para verificar si pertenece a él.</p>
+                <div class="card-header">
+                    <h2>Clasificador de Conjunto Números</h2>
+                    <p>Ingresa un número y selecciona un conjunto para verificar si pertenece a él.</p>
+                </div>
+                
+                <div class="card-body">
+                    <div class="card-object">
+                        <label>Inserte el Número: </label>
+                        <input type="text" id="numero-input" placeholder="Ej: 1, -8, 3/4, 7.6">
+                    </div>
+                
+                    <div class="card-object">
+                        <select id="select-conjuntos">
+                            <option value="">Selecciona un conjunto</option>
+                            <option value="naturales">Naturales (N)</option>
+                            <option value="enteros">Enteros (Z)</option>
+                            <option value="racionales">Racionales (Q)</option>
+                        </select>
+                    </div>
+                    <button class="tab-btn" id="btn-clasificador" type="button">Evaluar</button>
+                </div>
             </div>
-            <input type="text" id="numero-input">
-
-            <select id="select-conjuntos">
-                <option value="naturales">Naturales</option>
-                <option value="enteros">Enteros</option>
-                <option value="racionales">Racionales</option>
-            </select>
-        
-
         </section> 
 
-        <h1>HOLA MUNDO</h1>
-        <p><b>Lorem</b> ipsum dolor, sit amet consectetur adipisicing elit. Itaque veritatis inventore, maxime harum consequuntur repellendus, adipisci quam exercitationem numquam voluptas dolores pariatur aliquam quo obcaecati corporis expedita quaerat eveniet. Animi.</p>
-        <Script>
-            alert("Hola")
-        </Script>
+       
     </div>
 </body>
     
